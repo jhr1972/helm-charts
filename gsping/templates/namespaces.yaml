@@ -1,14 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  annotations:
-    openshift.io/sa.scc.mcs: s0:c27,c4
-    openshift.io/sa.scc.supplemental-groups: 1000710000/10000
-    openshift.io/sa.scc.uid-range: 1000710000/10000
-  labels:
-    kubernetes.io/metadata.name: hlb-gitops
-    openshift.io/cluster-monitoring: "true"
   name: hlb-gitops
-spec:
-  finalizers:
-  - kubernetes
