@@ -4,7 +4,7 @@ metadata:
   finalizers:
   - argoproj.io/finalizer
   name: hlb-gitops-plattform
-  namespace: openshift-gitops
+  namespace: hlb-gitops
   ownerReferences:
   - apiVersion: pipelines.openshift.io/v1alpha1
     blockOwnerDeletion: true
